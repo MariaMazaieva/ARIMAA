@@ -32,7 +32,7 @@ public class MainScene extends Scene {
 
         newGame.getStyleClass().add("button-main");
 
-        newGame.setOnAction(actionEvent -> {//WHAT DOES  IT DO
+        newGame.setOnAction(actionEvent -> {//WHAT DOES  IT DO, oh got it
             stage.setScene(gameScene);
         });
 
